@@ -18,6 +18,10 @@ public class TestPlanetExplorer {
 	
 	@Test
 	public void testExecuteCommandExplorerLandingAtPosition0_0_N() {
-		PlanetExplorer explorer = new PlanetExplorer(100, 100, "")
+		PlanetExplorer explorer = new PlanetExplorer(100, 100, "");
+		
+		String position = explorer.executeCommand("");
+		
+		assertEquals("0,0,N", actual);
 	}
 }

@@ -1,5 +1,7 @@
 package org.unioulu.tol.sqat2015.planetExplorer;
 
+import java.util.regex.Pattern;
+
 // Before submitting write your ID and finish time here. Your ID is written on project description sheets.
 // ID: 132
 // Finish time:
@@ -33,6 +35,8 @@ public class PlanetExplorer {
 		if(obstacles != null) {
 			//this.obstacles = obstacles.split("(\\d+,\\d+)");
 			this.obstacles = obstacles.split("\\b\\d+,\\d+\\b");
+			
+			Matcher m = Pattern.compile(""M)
 			
 			for(int i = 0; i < this.obstacles.length; i++) {
 				System.out.println(this.obstacles[i]);

@@ -89,6 +89,7 @@ public class PlanetExplorer {
 				String obstacleString = checkCollision();
 				
 				if(obstacleString != null) {
+					encounteredObstacles += obstacleString;
 					moveExplorer("f");
 				}
 				

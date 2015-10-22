@@ -165,7 +165,7 @@ public class PlanetExplorer {
 		}
 	}
 	
-	private boolean checkCollision() {
+	private String checkCollision() {
 		int id = y * planetX + x;
 		
 		if(planet[id] == 1) {

@@ -42,7 +42,7 @@ public class PlanetExplorer {
 				int obsY = Integer.parseInt(cell[1]);
 				int obsX = Integer.parseInt(cell[0]);
 				
-				System.out.println("Obstacle cell; x: " + cell[0] + "; y: " + cell[1]);
+				//System.out.println("Obstacle cell; x: " + cell[0] + "; y: " + cell[1]);
 				
 				int obstacleCellID = obsY * x + obsX;
 				

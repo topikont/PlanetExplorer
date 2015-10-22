@@ -79,20 +79,7 @@ public class PlanetExplorer {
 				}
 				checkPlanetWrapping();
 			} else if(commandIterator == 'b') {
-				switch(direction) {
-				case 0:
-					y--;
-					break;
-				case 1:
-					x--;
-					break;
-				case 2:
-					y++;
-					break;
-				case 3:
-					x++;
-					break;
-				}
+				moveExplorer("b");
 				checkPlanetWrapping();
 			} else if(commandIterator == 'r') {
 				turnExplorer("r");

@@ -568,3 +568,7 @@ CompilationAction 1445508869429 PlanetExplorer.java
 EditAction 1445508872281 PlanetExplorer.java 3915 7 16 0
 CompilationAction 1445508872495 PlanetExplorer.java
 EditAction 1445508877370 PlanetExplorer.java 3944 7 16 0
+RefactoringAction 1445508923833 PlanetExplorer.java ADD void moveExplorer() METHOD
+CompilationAction 1445508957203 PlanetExplorer.java
+CompilationAction 1445508979076 PlanetExplorer.java
+EditAction 1445509026511 PlanetExplorer.java 4342 8 17 0

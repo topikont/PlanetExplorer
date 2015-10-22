@@ -73,19 +73,9 @@ public class PlanetExplorer {
 			char commandIterator = command.charAt(i);
 			
 			if(commandIterator == 'f') {
-				switch(direction) {
-				case 0:
-					y++;
-					break;
-				case 1:
-					x++;
-					break;
-				case 2:
-					y--;
-					break;
-				case 3:
-					x--;
-					break;
+				moveExplorer("f");
+				if(checkCollision() == false) {
+					moveExplorer("b");
 				}
 				checkPlanetWrapping();
 			} else if(commandIterator == 'b') {
@@ -111,6 +101,40 @@ public class PlanetExplorer {
 			}
 		}
 		return getLocationString();
+	}
+	
+	private void moveExplorer(String movementDirection) {
+		if(movementDirection.equals("f")) {
+			switch(direction) {
+			case 0:
+				y++;
+				break;
+			case 1:
+				x++;
+				break;
+			case 2:
+				y--;
+				break;
+			case 3:
+				x--;
+				break;
+			}
+		} else if(movementDirection.equals("b")) {
+			switch(direction) {
+			case 0:
+				y--;
+				break;
+			case 1:
+				x--;
+				break;
+			case 2:
+				y++;
+				break;
+			case 3:
+				x++;
+				break;
+			}
+		}
 	}
 	
 	private void turnExplorer(String turnDirection) {

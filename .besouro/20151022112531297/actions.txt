@@ -22,3 +22,13 @@ EditAction 1445503166333 PlanetExplorer.java 1475 3 4 0
 EditAction 1445503174100 PlanetExplorer.java 1495 3 4 0
 EditAction 1445503180805 PlanetExplorer.java 1526 3 5 0
 EditAction 1445503197508 PlanetExplorer.java 1536 3 5 0
+UnitTestCaseAction 1445503200735 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445503200735 TestPlanetExplorer OK
+RefactoringAction 1445503214682 TestPlanetExplorer.java ADD void test FIELD
+RefactoringAction 1445503224197 TestPlanetExplorer.java RENAME test=>void testEx FIELD
+RefactoringAction 1445503229713 TestPlanetExplorer.java RENAME testEx=>void testExecuteCommandExplorerLandingAt FIELD
+RefactoringAction 1445503231727 TestPlanetExplorer.java RENAME testExecuteCommandExplorerLandingAt=>void testExecuteCommandExplorerLandingAtPosition FIELD
+RefactoringAction 1445503234743 TestPlanetExplorer.java RENAME testExecuteCommandExplorerLandingAtPosition=>void testExecuteCommandExplorerLandingAtPosition0 FIELD
+RefactoringAction 1445503236257 TestPlanetExplorer.java RENAME testExecuteCommandExplorerLandingAtPosition0=>void testExecuteCommandExplorerLandingAtPosition0_0_N FIELD
+RefactoringAction 1445503238771 TestPlanetExplorer.java RENAME testExecuteCommandExplorerLandingAtPosition0_0_N=>void testExecuteCommandExplorerLandingAtPosition0_0_N() METHOD
+EditAction 1445503312461 TestPlanetExplorer.java 593 2 3 1

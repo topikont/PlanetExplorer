@@ -16,4 +16,8 @@ public class TestPlanetExplorer {
 		assertEquals("100x100", grid);
 	}
 	
+	@Test
+	public void testExecuteCommandExplorerLandingAtPosition0_0_N() {
+		PlanetExplorer explorer = new PlanetExplorer(100, 100, "")
+	}
 }

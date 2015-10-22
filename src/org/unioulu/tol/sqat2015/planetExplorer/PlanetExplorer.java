@@ -106,14 +106,14 @@ public class PlanetExplorer {
 	
 	private void checkPlanetWrapping() {
 		if(x < 0) {
-			x = planetHeight;
-		} else if(x > planetHeight) {
+			x = planetHeight-1;
+		} else if(x > planetHeight-1) {
 			x = 0;
 		}
 		
 		if(y < 0) {
-			y = planetWidth;
-		} else if(y > planetWidth) {
+			y = planetWidth-1;
+		} else if(y > planetWidth-1) {
 			y = 0;
 		}
 	}

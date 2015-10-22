@@ -506,3 +506,6 @@ CompilationAction 1445508461972 PlanetExplorer.java
 CompilationAction 1445508463171 PlanetExplorer.java
 RefactoringAction 1445508466358 PlanetExplorer.java REMOVE executeCommand(String) METHOD
 EditAction 1445508467404 PlanetExplorer.java 3852 6 14 0
+UnitTestCaseAction 1445508470520 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445508470521 TestPlanetExplorer FAIL
+EditAction 1445508506630 PlanetExplorer.java 3882 6 14 0

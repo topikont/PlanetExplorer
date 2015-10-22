@@ -41,6 +41,7 @@ public class PlanetExplorer {
 			
 			while(m.find()) {
 				System.out.println(m.group());
+				Strint cell = m.group();
 			}
 			
 			/*

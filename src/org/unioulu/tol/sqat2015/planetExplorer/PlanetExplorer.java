@@ -68,12 +68,14 @@ public class PlanetExplorer {
 		return getLocationString();
 	}
 	
-	private void turnExplorer(String direction) {
-		if(direction.equals("r")) {
+	private void turnExplorer(String turnDirection) {
+		if(turnDirection.equals("r")) {
 			direction++;
 			if(direction > 3) {
 				direction = 0;
 			}
+		} else if(turnDirection.equals("l")) {
+			
 		}
 	}
 	

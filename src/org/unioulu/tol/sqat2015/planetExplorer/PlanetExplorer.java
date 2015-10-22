@@ -77,7 +77,7 @@ public class PlanetExplorer {
 			if(commandIterator == 'f') {
 				moveExplorer("f");
 				
-				String obstacleStirng = checkCollision();
+				String obstacleString = checkCollision();
 				
 				if(obstacle != null) {
 					encounteredObstacles += obstacle;

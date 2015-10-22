@@ -6,6 +6,7 @@ package org.unioulu.tol.sqat2015.planetExplorer;
 public class PlanetExplorer {
 	int width;
 	int height;
+	String obstacles;
 	
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.

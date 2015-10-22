@@ -7,3 +7,10 @@ CompilationAction 1445502983128 TestPlanetExplorer.java
 RefactoringAction 1445502998232 TestPlanetExplorer.java ADD import org.unioulu.tol.sqat2015.planetExplorer.PlanetExplorer IMPORT
 CompilationAction 1445503008700 TestPlanetExplorer.java
 EditAction 1445503029899 TestPlanetExplorer.java 393 1 2 0
+CompilationAction 1445503030175 TestPlanetExplorer.java
+RefactoringAction 1445503051551 TestPlanetExplorer.java RENAME testCreatePlanetReturnPlanetSize()=>void testCreatePlanetReturnPlanetSize100x100() METHOD
+CompilationAction 1445503061606 TestPlanetExplorer.java
+CompilationAction 1445503061777 TestPlanetExplorer.java
+RefactoringAction 1445503080107 PlanetExplorer.java ADD void getPlanetGrid() METHOD
+RefactoringAction 1445503085122 PlanetExplorer.java RENAME getPlanetGrid()=>void getPlanetGridSize() METHOD
+EditAction 1445503091947 PlanetExplorer.java 1412 3 2 0

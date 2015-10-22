@@ -103,4 +103,13 @@ public class TestPlanetExplorer {
 		
 		assertEquals("(0,1,N)(0,2)", position);
 	}
+	
+	@Test
+	public void testExecuteCommand_RFFFLFFRFLFLF_FromStartTo3_2_N_WithEncounteringObstaclesAt3_0And2_2() {
+		PlanetExplorer explorer = new PlanetExplorer(100, 100, "(0,2)");
+		
+		String position = explorer.executeCommand("ff");
+		
+		assertEquals("(0,1,N)(0,2)", position);
+	}
 }

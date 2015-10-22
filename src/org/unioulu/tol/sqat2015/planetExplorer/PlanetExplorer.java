@@ -31,7 +31,7 @@ public class PlanetExplorer {
 		planetY = y;
 		this.obstacles = obstacles;
 		
-		planet[] = ;
+		planet[] = new int[x*y];
 		
 		this.x = 0;
 		this.y = 0;

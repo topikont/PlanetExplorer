@@ -368,3 +368,5 @@ UnitTestSessionAction 1445506755106 TestPlanetExplorer FAIL
 RefactoringAction 1445506857821 PlanetExplorer.java ADD int planet FIELD
 EditAction 1445506864790 PlanetExplorer.java 3267 6 13 0
 EditAction 1445507244312 PlanetExplorer.java 3287 6 7 0
+CompilationAction 1445507244436 PlanetExplorer.java
+EditAction 1445507306431 PlanetExplorer.java 3299 6 7 0

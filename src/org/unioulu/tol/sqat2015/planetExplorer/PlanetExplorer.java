@@ -79,16 +79,16 @@ public class PlanetExplorer {
 				
 				String obstacleString = checkCollision();
 				
-				if(obstacle != null) {
-					encounteredObstacles += obstacle;
+				if(obstacleString != null) {
+					encounteredObstacles += obstacleString;
 					moveExplorer("b");
 				}
 			} else if(commandIterator == 'b') {
 				moveExplorer("b");
 				
-				String obstacle = checkCollision();
+				String obstacleString = checkCollision();
 				
-				if(obstacle != null) {
+				if(obstacleString != null) {
 					moveExplorer("f");
 				}
 				

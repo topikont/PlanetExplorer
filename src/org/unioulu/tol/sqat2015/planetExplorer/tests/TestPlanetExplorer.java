@@ -105,7 +105,7 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void testExecuteCommand_RFFFLFFRFLFLF_FromStartTo3_2_N_WithEncounteringObstaclesAt3_0And2_2() {
+	public void testExecuteCommand_RFFFLFFRFLFLF_FromStartTo3_2_E_WithEncounteringObstaclesAt3_0And2_2() {
 		PlanetExplorer explorer = new PlanetExplorer(100, 100, "(3,0)(2_2)");
 		
 		String position = explorer.executeCommand("rffflffrflflf");

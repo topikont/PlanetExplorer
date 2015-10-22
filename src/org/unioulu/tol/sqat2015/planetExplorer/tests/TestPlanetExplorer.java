@@ -33,4 +33,11 @@ public class TestPlanetExplorer {
 		
 		assertEquals("1,0,N", position);
 	}
+	
+	@Test
+	public void testExecuteCommandTurnExplorerRightFromStartTo0_0_E() {
+		PlanetExplorer explorer = new PlanetExplorer(100, 100, obstacles);
+		
+		String position = explorer.executeCommand("r")
+	}
 }

@@ -31,8 +31,9 @@ public class PlanetExplorer {
 		planetY = y;
 		
 		if(obstacles != null) {
-			this.obstacles = obstacles.split("(\d+,\d+)");
-
+			//this.obstacles = obstacles.split("(\\d+,\\d+)");
+			this.obstacles = obstacles.split(",")
+			
 			for(int i = 0; i < this.obstacles.length; i++) {
 				System.out.println(this.obstacles[i]);
 			}

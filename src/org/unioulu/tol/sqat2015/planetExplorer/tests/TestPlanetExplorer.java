@@ -85,4 +85,13 @@ public class TestPlanetExplorer {
 		
 		assertEquals("0,98,N", position);
 	}
+	
+	@Test
+	public void testExecuteCommand_FF_FromStartTo0_1_N_WithEncounteringObstacleAt0_2() {
+		PlanetExplorer explorer = new PlanetExplorer(100, 100, "");
+		
+		String position = explorer.executeCommand("bb");
+		
+		assertEquals("0,98,N", position);
+	}
 }

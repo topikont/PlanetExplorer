@@ -125,6 +125,8 @@ public class PlanetExplorer {
 				break;
 			}
 		}
+		
+		checkPlanetWrapping();
 	}
 	
 	private void turnExplorer(String turnDirection) {

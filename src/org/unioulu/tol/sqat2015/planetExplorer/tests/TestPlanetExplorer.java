@@ -90,8 +90,8 @@ public class TestPlanetExplorer {
 	public void testExecuteCommand_FF_FromStartTo0_1_N_WithEncounteringObstacleAt0_2() {
 		PlanetExplorer explorer = new PlanetExplorer(100, 100, "(0,2)");
 		
-		String position = explorer.executeCommand("bb");
+		String position = explorer.executeCommand("ff");
 		
-		assertEquals("0,98,N", position);
+		assertEquals("(0,1,N)(0,2)", position);
 	}
 }

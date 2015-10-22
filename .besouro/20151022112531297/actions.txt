@@ -14,3 +14,7 @@ CompilationAction 1445503061777 TestPlanetExplorer.java
 RefactoringAction 1445503080107 PlanetExplorer.java ADD void getPlanetGrid() METHOD
 RefactoringAction 1445503085122 PlanetExplorer.java RENAME getPlanetGrid()=>void getPlanetGridSize() METHOD
 EditAction 1445503091947 PlanetExplorer.java 1412 3 2 0
+UnitTestCaseAction 1445503097975 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445503097983 TestPlanetExplorer OK
+RefactoringAction 1445503149683 PlanetExplorer.java ADD int width FIELD
+EditAction 1445503152874 PlanetExplorer.java 1442 3 2 0

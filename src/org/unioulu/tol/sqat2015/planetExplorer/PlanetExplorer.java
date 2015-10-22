@@ -141,6 +141,11 @@ public class PlanetExplorer {
 		}
 	}
 	
+	private void checkCollision() {
+		
+	}
+	}
+	
 	private String getLocationString() {
 		switch(direction) {
 		case 0:

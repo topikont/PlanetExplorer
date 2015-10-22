@@ -41,7 +41,7 @@ public class PlanetExplorer {
 			
 			while(m.find()) {
 				System.out.println(m.group());
-				String cell = m.group().split(",2);
+				String cell = m.group().split(",");
 				
 				System.out.println("Obstacle cell; x: ");
 			}

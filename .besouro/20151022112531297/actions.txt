@@ -316,3 +316,6 @@ EditAction 1445505388952 TestPlanetExplorer.java 2366 8 25 8
 UnitTestCaseAction 1445505391722 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445505391722 TestPlanetExplorer FAIL
 EditAction 1445505412787 PlanetExplorer.java 3065 5 11 0
+CompilationAction 1445505412914 PlanetExplorer.java
+RefactoringAction 1445505427949 PlanetExplorer.java ADD void checkPlanetWrapping() METHOD
+EditAction 1445505438093 PlanetExplorer.java 3136 6 12 0

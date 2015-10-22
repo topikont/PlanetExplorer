@@ -104,6 +104,12 @@ public class PlanetExplorer {
 		}
 	}
 	
+	private void checkPlanetWrapping() {
+		if(x < 0) {
+			
+		}
+	}
+	
 	private String getLocationString() {
 		switch(direction) {
 		case 0:

@@ -31,6 +31,8 @@ public class PlanetExplorer {
 		planetY = y;
 		this.obstacles = obstacles;
 		
+		planet[] = ;
+		
 		this.x = 0;
 		this.y = 0;
 		this.direction = 0;

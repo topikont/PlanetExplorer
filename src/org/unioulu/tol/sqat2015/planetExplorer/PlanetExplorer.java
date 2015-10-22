@@ -48,6 +48,10 @@ public class PlanetExplorer {
 		
 		String commandIterator = "";
 		
+		for(int i = 0; i < command.length(); i++) {
+			
+		}
+		
 		if(command.equals("f")) {
 			switch(direction) {
 			case 0:

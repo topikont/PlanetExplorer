@@ -47,7 +47,7 @@ public class PlanetExplorer {
 		 */
 		
 		if(command.equals("")) {
-			return x+","+y;
+			return getLocationString();
 		}
 		if(command.equals("f")) {
 			switch(direction) {
@@ -65,7 +65,7 @@ public class PlanetExplorer {
 				break;
 			}
 			
-			return x+","+y+","+getLocationString();
+			return getLocationString();
 		}
 		
 		return null;

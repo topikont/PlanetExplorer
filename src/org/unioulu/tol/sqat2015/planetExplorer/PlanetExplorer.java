@@ -42,6 +42,8 @@ public class PlanetExplorer {
 			while(m.find()) {
 				System.out.println(m.group());
 				String cell = m.group();
+				
+				System.out.println("Obstacle cell)";
 			}
 			
 			/*

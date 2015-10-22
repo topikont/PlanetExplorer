@@ -72,7 +72,7 @@ public class PlanetExplorer {
 		if(direction.equals("r")) {
 			direction++;
 			if(direction > 3) {
-				
+				direction = 0;
 			}
 		}
 	}

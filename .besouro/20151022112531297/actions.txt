@@ -194,3 +194,6 @@ RefactoringAction 1445504436852 PlanetExplorer.java RENAME turnE=>void turnExplo
 EditAction 1445504440625 PlanetExplorer.java 2364 5 10 0
 EditAction 1445504455440 PlanetExplorer.java 2419 5 11 0
 EditAction 1445504470540 PlanetExplorer.java 2467 5 11 0
+CompilationAction 1445504470808 PlanetExplorer.java
+CompilationAction 1445504470808 PlanetExplorer.java
+EditAction 1445504475280 PlanetExplorer.java 2481 5 11 0

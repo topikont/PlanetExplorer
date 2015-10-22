@@ -64,7 +64,8 @@ public class PlanetExplorer {
 					y--;
 					break;
 				}
-			} else if(commandIterator == 'r') {
+			} else if(commantIterator == 'b') { 
+		} else if(commandIterator == 'r') {
 				turnExplorer("r");;
 			} else if(commandIterator == 'l') {
 				turnExplorer("l");

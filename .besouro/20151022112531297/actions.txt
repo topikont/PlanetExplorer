@@ -284,3 +284,11 @@ RefactoringAction 1445505128483 TestPlanetExplorer.java RENAME testExecuteComman
 RefactoringAction 1445505137520 TestPlanetExplorer.java ADD import sun.net.www.content.text.plain IMPORT
 EditAction 1445505144646 TestPlanetExplorer.java 2028 7 20 6
 EditAction 1445505159040 TestPlanetExplorer.java 2082 7 19 6
+CompilationAction 1445505159167 TestPlanetExplorer.java
+CompilationAction 1445505159167 TestPlanetExplorer.java
+CompilationAction 1445505200553 TestPlanetExplorer.java
+UnitTestCaseAction 1445505204740 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445505204741 TestPlanetExplorer FAIL
+RefactoringAction 1445505218421 PlanetExplorer.java ADD String getLocationString()/2 METHOD
+RefactoringAction 1445505221954 PlanetExplorer.java REMOVE getLocationString()/2 METHOD
+EditAction 1445505227514 PlanetExplorer.java 2830 5 11 0

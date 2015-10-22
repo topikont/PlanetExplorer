@@ -169,9 +169,9 @@ public class PlanetExplorer {
 		int id = y * planetX + x;
 		
 		if(planet[id] == 1) {
-			return false;
+			return "(" + x "," + y +")";
 		} else {
-			return true;
+			return null;
 		}
 	}
 	

@@ -33,6 +33,8 @@ public class PlanetExplorer {
 		planetX = x;
 		planetY = y;
 		
+		planet = new int[x*y];
+		
 		if(obstacles != null) {
 			Matcher m = Pattern.compile("\\b\\d+,\\d+\\b").matcher(obstacles);
 			
@@ -50,11 +52,7 @@ public class PlanetExplorer {
 			}
 		}
 
-		planet = new int[x*y];
 		
-		//FOR ALL OBSTACLEs
-		//int obstacleCellId = obsY * x + obsX;
-		//planet[obstacleCellId] = 1;
 		
 		this.x = 0;
 		this.y = 0;

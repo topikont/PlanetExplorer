@@ -114,7 +114,7 @@ public class PlanetExplorer {
 		if(y < 0) {
 			y = planetWidth;
 		} else if(y > planetWidth) {
-			
+			y = 0;
 		}
 	}
 	

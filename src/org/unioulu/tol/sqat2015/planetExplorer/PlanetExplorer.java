@@ -106,7 +106,7 @@ public class PlanetExplorer {
 	
 	private void checkPlanetWrapping() {
 		if(x < 0) {
-			
+			x = planetHeight;
 		}
 	}
 	

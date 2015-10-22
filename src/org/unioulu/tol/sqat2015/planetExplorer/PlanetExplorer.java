@@ -74,6 +74,9 @@ public class PlanetExplorer {
 			
 			if(commandIterator == 'f') {
 				moveExplorer("f");
+				
+				String obstacle = checkCollision()
+				
 				if(checkCollision() == false) {
 					moveExplorer("b");
 				}
@@ -89,6 +92,9 @@ public class PlanetExplorer {
 				turnExplorer("l");
 			}
 		}
+		
+		String encounteredObstacles = "";
+		
 		return "(" + getLocationString() + ")" + encounteredObstacles;
 	}
 	

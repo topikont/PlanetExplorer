@@ -69,6 +69,8 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 
+		String encounteredObstacles = "";
+		
 		for(int i = 0; i < command.length(); i++) {
 			char commandIterator = command.charAt(i);
 			
@@ -96,7 +98,7 @@ public class PlanetExplorer {
 			}
 		}
 		
-		String encounteredObstacles = "";
+		
 		
 		return "(" + getLocationString() + ")" + encounteredObstacles;
 	}
@@ -169,7 +171,7 @@ public class PlanetExplorer {
 		int id = y * planetX + x;
 		
 		if(planet[id] == 1) {
-			return "(" + x "," + y +")";
+			return "(" + x + "," + y +")";
 		} else {
 			return null;
 		}

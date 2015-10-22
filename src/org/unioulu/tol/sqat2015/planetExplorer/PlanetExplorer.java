@@ -50,7 +50,7 @@ public class PlanetExplorer {
 		
 		for(int i = 0; i < command.length(); i++) {
 			commandIterator = command.charAt(i);
-		}
+		
 		
 		if(command.equals("f")) {
 			switch(direction) {
@@ -72,7 +72,7 @@ public class PlanetExplorer {
 		} else if(command.equals("l")) {
 			turnExplorer("l");
 		}
-		
+		}
 		return getLocationString();
 	}
 	

@@ -8,7 +8,14 @@ public class PlanetExplorer {
 	int planetHeight;
 	String obstacles;
 	
+	int x;
+	int y;
+	int direction;
 	
+	public static int NORTH = 0;
+	public static int EAST = 1;
+	public static int SOUTH = 2;
+	public static int WEST = 3;
 	
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
@@ -18,8 +25,8 @@ public class PlanetExplorer {
 		PlanetExplorer explorer = new PlanetExplorer(100,100,"(5,5)(7,8)")  //A 100x100 grid with two obstacles at coordinates (5,5) and (7,8) 
 	 */
 		
-		width = x;
-		height = y;
+		planetWidth = x;
+		planetHeight = y;
 		this.obstacles = obstacles;
 	}
 	
@@ -39,13 +46,43 @@ public class PlanetExplorer {
 			return "0,0,N";
 		}
 		if(command.equals("f")) {
-			return "0,1,N";
+			switch(direction) {
+			case 0:
+				x++;
+				break;
+			case 1:
+				y++;
+				break;
+			case 2:
+				x--;
+				break;
+			case 3:
+				y--;
+				break;
+			}
+			
+			return x+","+y+","+getLocationString();
 		}
 		
 		return null;
 	}
 	
+	private String getLocationString() {
+		switch(direction) {
+		case 0:
+			return "N";
+		case 1:
+			return "E";
+		case 2:
+			return "S";
+		case 3:
+			return "W";
+		default:
+			return "";
+		}
+	}
+	
 	public String getPlanetGridSize() {
-		return width +"x" + height;
+		return planetWidth +"x" + planetHeight;
 	}
 }

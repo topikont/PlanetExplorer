@@ -72,3 +72,69 @@ UnitTestSessionAction 1445503760597 TestPlanetExplorer OK
 RefactoringAction 1445503774581 PlanetExplorer.java RENAME width=>int planetWidth FIELD
 RefactoringAction 1445503777097 PlanetExplorer.java RENAME height=>int planetheight FIELD
 EditAction 1445503778073 PlanetExplorer.java 1665 3 7 0
+CompilationAction 1445503778354 PlanetExplorer.java
+CompilationAction 1445503778354 PlanetExplorer.java
+CompilationAction 1445503788360 PlanetExplorer.java
+CompilationAction 1445503788360 PlanetExplorer.java
+CompilationAction 1445503788526 PlanetExplorer.java
+CompilationAction 1445503788526 PlanetExplorer.java
+RefactoringAction 1445503795661 PlanetExplorer.java ADD int x FIELD
+RefactoringAction 1445503795662 PlanetExplorer.java ADD int y FIELD
+CompilationAction 1445503799695 PlanetExplorer.java
+CompilationAction 1445503799695 PlanetExplorer.java
+CompilationAction 1445503799863 PlanetExplorer.java
+CompilationAction 1445503799863 PlanetExplorer.java
+RefactoringAction 1445503820754 PlanetExplorer.java ADD int NORTH FIELD
+RefactoringAction 1445503835292 PlanetExplorer.java ADD int EAST FIELD
+RefactoringAction 1445503835294 PlanetExplorer.java ADD int SOUTH FIELD
+CompilationAction 1445503836976 PlanetExplorer.java
+CompilationAction 1445503836976 PlanetExplorer.java
+CompilationAction 1445503837153 PlanetExplorer.java
+CompilationAction 1445503837153 PlanetExplorer.java
+CompilationAction 1445503869504 PlanetExplorer.java
+CompilationAction 1445503869505 PlanetExplorer.java
+CompilationAction 1445503869681 PlanetExplorer.java
+CompilationAction 1445503869681 PlanetExplorer.java
+CompilationAction 1445503869682 PlanetExplorer.java
+CompilationAction 1445503876622 PlanetExplorer.java
+CompilationAction 1445503876622 PlanetExplorer.java
+CompilationAction 1445503876622 PlanetExplorer.java
+CompilationAction 1445503876791 PlanetExplorer.java
+CompilationAction 1445503876791 PlanetExplorer.java
+CompilationAction 1445503917503 PlanetExplorer.java
+CompilationAction 1445503917503 PlanetExplorer.java
+CompilationAction 1445503917679 PlanetExplorer.java
+CompilationAction 1445503917680 PlanetExplorer.java
+CompilationAction 1445503972625 PlanetExplorer.java
+CompilationAction 1445503972625 PlanetExplorer.java
+CompilationAction 1445503972793 PlanetExplorer.java
+CompilationAction 1445503972793 PlanetExplorer.java
+CompilationAction 1445503972793 PlanetExplorer.java
+RefactoringAction 1445503981151 PlanetExplorer.java ADD String printLocation() METHOD
+CompilationAction 1445503998009 PlanetExplorer.java
+CompilationAction 1445503998009 PlanetExplorer.java
+CompilationAction 1445503998010 PlanetExplorer.java
+CompilationAction 1445503998194 PlanetExplorer.java
+CompilationAction 1445503998195 PlanetExplorer.java
+CompilationAction 1445503998195 PlanetExplorer.java
+CompilationAction 1445503998195 PlanetExplorer.java
+CompilationAction 1445504002647 PlanetExplorer.java
+CompilationAction 1445504002648 PlanetExplorer.java
+CompilationAction 1445504002648 PlanetExplorer.java
+CompilationAction 1445504002816 PlanetExplorer.java
+CompilationAction 1445504002817 PlanetExplorer.java
+CompilationAction 1445504002817 PlanetExplorer.java
+CompilationAction 1445504023625 PlanetExplorer.java
+CompilationAction 1445504023625 PlanetExplorer.java
+CompilationAction 1445504023800 PlanetExplorer.java
+CompilationAction 1445504023800 PlanetExplorer.java
+CompilationAction 1445504023800 PlanetExplorer.java
+CompilationAction 1445504033560 PlanetExplorer.java
+CompilationAction 1445504033561 PlanetExplorer.java
+CompilationAction 1445504033732 PlanetExplorer.java
+CompilationAction 1445504033732 PlanetExplorer.java
+CompilationAction 1445504046007 PlanetExplorer.java
+CompilationAction 1445504046007 PlanetExplorer.java
+UnitTestCaseAction 1445504051925 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445504051926 TestPlanetExplorer FAIL
+EditAction 1445504072891 TestPlanetExplorer.java 938 3 9 3

@@ -98,8 +98,6 @@ public class PlanetExplorer {
 			}
 		}
 		
-		
-		
 		return "(" + getLocationString() + ")" + encounteredObstacles;
 	}
 	

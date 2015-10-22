@@ -82,7 +82,7 @@ public class PlanetExplorer {
 		case 3:
 			return x+","+y+",W";
 		default:
-			return x+","+y+",EEE";
+			return x+","+y+",ERROR";
 		}
 	}
 	

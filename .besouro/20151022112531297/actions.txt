@@ -67,3 +67,8 @@ UnitTestCaseAction 1445503697666 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445503697667 TestPlanetExplorer FAIL
 EditAction 1445503738746 PlanetExplorer.java 1632 3 7 0
 EditAction 1445503756886 PlanetExplorer.java 1647 3 7 0
+UnitTestCaseAction 1445503760596 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445503760597 TestPlanetExplorer OK
+RefactoringAction 1445503774581 PlanetExplorer.java RENAME width=>int planetWidth FIELD
+RefactoringAction 1445503777097 PlanetExplorer.java RENAME height=>int planetheight FIELD
+EditAction 1445503778073 PlanetExplorer.java 1665 3 7 0

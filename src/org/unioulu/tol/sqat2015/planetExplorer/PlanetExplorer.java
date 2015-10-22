@@ -4,9 +4,11 @@ package org.unioulu.tol.sqat2015.planetExplorer;
 // ID: 132
 // Finish time:
 public class PlanetExplorer {
-	int width;
-	int height;
+	int planetWidth;
+	int planetHeight;
 	String obstacles;
+	
+	
 	
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.

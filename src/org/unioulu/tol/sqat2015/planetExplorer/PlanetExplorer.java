@@ -64,7 +64,7 @@ public class PlanetExplorer {
 		} else if(command.equals("r")) {
 			turnExplorer("r");;
 		} else if(command.equals("l")) {
-			
+			turnExplorer("l");
 		}
 		
 		return getLocationString();

@@ -37,11 +37,16 @@ public class PlanetExplorer {
 			Matcher m = Pattern.compile("\\b\\d+,\\d+\\b").matcher(obstacles);
 			
 			while(m.find()) {
-				int cell[] = Integer.parseInt( m.group().split(",") );
+				String cell[] = m.group().split(",");
+				
+				int obsY = Integer.parseInt(cell[1]);
+				int obsX = Integer.parseInt(cell[0]);
 				
 				System.out.println("Obstacle cell; x: " + cell[0] + "; y: " + cell[1]);
 				
-				int obstacleCellID = cell[1] * x + cell[0];
+				int obstacleCellID = obsY * x + obsX;
+				
+				planet[obstacleCellID]
 			}
 		}
 

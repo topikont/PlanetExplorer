@@ -32,7 +32,7 @@ public class PlanetExplorer {
 		
 		if(obstacles != null) {
 			//this.obstacles = obstacles.split("(\\d+,\\d+)");
-			this.obstacles = obstacles.split("()");
+			this.obstacles = obstacles.split("\\b\\d+,\\d+\\b");
 			
 			for(int i = 0; i < this.obstacles.length; i++) {
 				System.out.println(this.obstacles[i]);

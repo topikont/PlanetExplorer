@@ -52,32 +52,32 @@ public class PlanetExplorer {
 			if(commandIterator == 'f') {
 				switch(direction) {
 				case 0:
-					x++;
-					break;
-				case 1:
 					y++;
 					break;
+				case 1:
+					x++;
+					break;
 				case 2:
-					x--;
+					y--;
 					break;
 				case 3:
-					y--;
+					x--;
 					break;
 				}
 				checkPlanetWrapping();
 			} else if(commandIterator == 'b') {
 				switch(direction) {
 				case 0:
-					x--;
-					break;
-				case 1:
 					y--;
 					break;
+				case 1:
+					x--;
+					break;
 				case 2:
-					x++;
+					y++;
 					break;
 				case 3:
-					y++;
+					x++;
 					break;
 				}
 				checkPlanetWrapping();

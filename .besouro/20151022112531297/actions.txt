@@ -341,3 +341,4 @@ RefactoringAction 1445506033125 PlanetExplorer.java RENAME planetWidth=>int plan
 EditAction 1445506033126 PlanetExplorer.java 3273 6 13 0
 RefactoringAction 1445506051675 PlanetExplorer.java RENAME planetHeight=>int planetY FIELD
 EditAction 1445506051676 PlanetExplorer.java 3248 6 13 0
+EditAction 1445506106433 PlanetExplorer.java 3248 6 13 0

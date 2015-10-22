@@ -27,6 +27,6 @@ public class TestPlanetExplorer {
 	
 	@Test
 	public void testExecuteCommandMoveExplorerForward1CellFromStartTo0_1_N() {
-		
+		PlanetExplorer explorer = new PlanetExplorer();
 	}
 }

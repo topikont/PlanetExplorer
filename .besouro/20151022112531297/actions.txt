@@ -56,3 +56,4 @@ RefactoringAction 1445503502315 TestPlanetExplorer.java RENAME testExecuteComman
 RefactoringAction 1445503503830 TestPlanetExplorer.java RENAME testExecuteCommandMoveExplorerForward1CellFromStartTo()=>void testExecuteCommandMoveExplorerForward1CellFromStartTo0() METHOD
 RefactoringAction 1445503504846 TestPlanetExplorer.java RENAME testExecuteCommandMoveExplorerForward1CellFromStartTo0()=>void testExecuteCommandMoveExplorerForward1CellFromStartTo0_() METHOD
 EditAction 1445503656213 TestPlanetExplorer.java 784 3 6 2
+EditAction 1445503665636 TestPlanetExplorer.java 831 3 7 2

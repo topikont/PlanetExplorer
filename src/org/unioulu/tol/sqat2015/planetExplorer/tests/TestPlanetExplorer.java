@@ -28,12 +28,12 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void testExecuteCommandMoveExplorerForward1CellFromStartTo1_0_N() {
+	public void testExecuteCommandMoveExplorerForward1CellFromStartTo0_1_N() {
 		PlanetExplorer explorer = new PlanetExplorer(100, 100, "");
 		
 		String position = explorer.executeCommand("f");
 		
-		assertEquals("1,0,N", position);
+		assertEquals("0,1,N", position);
 	}
 	
 	@Test
@@ -46,13 +46,13 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void testExecuteCommandTurnExplorerRightAndMove1CellForwardTo0_1_E() {
+	public void testExecuteCommandTurnExplorerRightAndMove1CellForwardTo1_0_E() {
 		PlanetExplorer explorer = new PlanetExplorer(100, 100, "");
 		
 		explorer.executeCommand("r");
 		String position = explorer.executeCommand("f");
 		
-		assertEquals("0,1,E", position);
+		assertEquals("1,0,E", position);
 	}
 	
 	@Test
@@ -69,20 +69,20 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void testExecuteCommand_FFBRFLFFFRF_To4_2_E() {
+	public void testExecuteCommand_FFBRFLFFFRF_To2_4_E() {
 		PlanetExplorer explorer = new PlanetExplorer(100, 100, "");
 		
 		String position = explorer.executeCommand("ffbrflfffrf");
 		
-		assertEquals("4,2,E", position);
+		assertEquals("2,4,E", position);
 	}
 	
 	@Test
-	public void testExecuteCommand_BB_FromStartTo98_0_N() {
+	public void testExecuteCommand_BB_FromStartTo0_98_N() {
 		PlanetExplorer explorer = new PlanetExplorer(100, 100, "");
 		
 		String position = explorer.executeCommand("bb");
 		
-		assertEquals("98,0,N", position);
+		assertEquals("0,98,N", position);
 	}
 }

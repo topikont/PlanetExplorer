@@ -342,3 +342,12 @@ EditAction 1445506033126 PlanetExplorer.java 3273 6 13 0
 RefactoringAction 1445506051675 PlanetExplorer.java RENAME planetHeight=>int planetY FIELD
 EditAction 1445506051676 PlanetExplorer.java 3248 6 13 0
 EditAction 1445506106433 PlanetExplorer.java 3248 6 13 0
+RefactoringAction 1445506139367 TestPlanetExplorer.java RENAME testExecuteCommandMoveExplorerForward1CellFromStartTo1_0_N()=>void testExecuteCommandMoveExplorerForward1CellFromStartTo0_1_N() METHOD
+RefactoringAction 1445506164389 TestPlanetExplorer.java RENAME testExecuteCommandTurnExplorerRightAndMove1CellForwardTo0_1_E()=>void testExecuteCommandTurnExplorerRightAndMove1CellForwardTo0_0_E() METHOD
+RefactoringAction 1445506166411 TestPlanetExplorer.java RENAME testExecuteCommandTurnExplorerRightAndMove1CellForwardTo0_0_E()=>void testExecuteCommandTurnExplorerRightAndMove1CellForwardTo1_0_E() METHOD
+RefactoringAction 1445506197470 TestPlanetExplorer.java RENAME testExecuteCommand_FFBRFLFFFRF_To4_2_E()=>void testExecuteCommand_FFBRFLFFFRF_To2_4_E() METHOD
+RefactoringAction 1445506205991 TestPlanetExplorer.java RENAME testExecuteCommand_BB_FromStartTo98_0_N()=>void testExecuteCommand_BB_FromStartTo08_0_N() METHOD
+RefactoringAction 1445506208012 TestPlanetExplorer.java RENAME testExecuteCommand_BB_FromStartTo08_0_N()=>void testExecuteCommand_BB_FromStartTo0_0_N() METHOD
+RefactoringAction 1445506213533 TestPlanetExplorer.java RENAME testExecuteCommand_BB_FromStartTo0_0_N()=>void testExecuteCommand_BB_FromStartTo0__N() METHOD
+RefactoringAction 1445506215054 TestPlanetExplorer.java RENAME testExecuteCommand_BB_FromStartTo0__N()=>void testExecuteCommand_BB_FromStartTo0_98_N() METHOD
+EditAction 1445506224215 TestPlanetExplorer.java 2366 8 25 8

@@ -22,6 +22,6 @@ public class TestPlanetExplorer {
 		
 		String position = explorer.executeCommand("");
 		
-		assertEquals("0,0,N", actual);
+		assertEquals("0,0,N", position);
 	}
 }

@@ -64,7 +64,7 @@ public class PlanetExplorer {
 					y--;
 					break;
 				}
-			} else if(commantIterator == 'b') {
+			} else if(commandIterator == 'b') {
 				switch(direction) {
 				case 0:
 					x--;

@@ -28,6 +28,10 @@ public class PlanetExplorer {
 		planetWidth = x;
 		planetHeight = y;
 		this.obstacles = obstacles;
+		
+		this.x = 0;
+		this.y = 0;
+		this.direction = 0;
 	}
 	
 	public String executeCommand(String command){

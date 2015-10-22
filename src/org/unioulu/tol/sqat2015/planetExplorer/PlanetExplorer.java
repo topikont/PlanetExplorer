@@ -5,7 +5,7 @@ package org.unioulu.tol.sqat2015.planetExplorer;
 // Finish time:
 public class PlanetExplorer {
 	int planetX;
-	int planetHeight;
+	int planetY;
 	String obstacles;
 	
 	int x;
@@ -26,7 +26,7 @@ public class PlanetExplorer {
 	 */
 		
 		planetX = x;
-		planetHeight = y;
+		planetY = y;
 		this.obstacles = obstacles;
 		
 		this.x = 0;
@@ -106,8 +106,8 @@ public class PlanetExplorer {
 	
 	private void checkPlanetWrapping() {
 		if(x < 0) {
-			x = planetHeight-1;
-		} else if(x > planetHeight-1) {
+			x = planetY-1;
+		} else if(x > planetY-1) {
 			x = 0;
 		}
 		
@@ -134,6 +134,6 @@ public class PlanetExplorer {
 	}
 	
 	public String getPlanetGridSize() {
-		return planetX +"x" + planetHeight;
+		return planetX +"x" + planetY;
 	}
 }

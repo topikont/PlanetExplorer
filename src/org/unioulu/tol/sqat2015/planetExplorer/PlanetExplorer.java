@@ -40,12 +40,14 @@ public class PlanetExplorer {
 			Matcher m = Pattern.compile("\\b\\d+,\\d+\\b").matcher(obstacles);
 			
 			while(m.find()) {
-				System.out.println(m.group(group));
+				System.out.println(m.group());
 			}
 			
+			/*
 			for(int i = 0; i < this.obstacles.length; i++) {
 				System.out.println(this.obstacles[i]);
 			}
+			*/
 		}
 
 		planet = new int[x*y];

@@ -502,3 +502,7 @@ RefactoringAction 1445508413399 PlanetExplorer.java ADD import java.util.regex.M
 CompilationAction 1445508434357 PlanetExplorer.java
 EditAction 1445508445289 PlanetExplorer.java 3808 6 14 0
 EditAction 1445508461697 PlanetExplorer.java 3843 6 14 0
+CompilationAction 1445508461972 PlanetExplorer.java
+CompilationAction 1445508463171 PlanetExplorer.java
+RefactoringAction 1445508466358 PlanetExplorer.java REMOVE executeCommand(String) METHOD
+EditAction 1445508467404 PlanetExplorer.java 3852 6 14 0

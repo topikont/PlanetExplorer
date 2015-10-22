@@ -34,23 +34,13 @@ public class PlanetExplorer {
 		planetY = y;
 		
 		if(obstacles != null) {
-			//this.obstacles = obstacles.split("(\\d+,\\d+)");
-			this.obstacles = obstacles.split("\\b\\d+,\\d+\\b");
-			
 			Matcher m = Pattern.compile("\\b\\d+,\\d+\\b").matcher(obstacles);
 			
 			while(m.find()) {
-				//System.out.println(m.group());
 				String cell[] = m.group().split(",");
 				
 				System.out.println("Obstacle cell; x: " + cell[0] + "; y: " + cell[1]);
 			}
-			
-			/*
-			for(int i = 0; i < this.obstacles.length; i++) {
-				System.out.println(this.obstacles[i]);
-			}
-			*/
 		}
 
 		planet = new int[x*y];

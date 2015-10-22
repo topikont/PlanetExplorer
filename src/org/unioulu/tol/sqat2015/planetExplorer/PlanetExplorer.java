@@ -40,7 +40,7 @@ public class PlanetExplorer {
 			Matcher m = Pattern.compile("\\b\\d+,\\d+\\b").matcher(obstacles);
 			
 			while(m.find()) {
-				
+				System.out.println(m.group(group));
 			}
 			
 			for(int i = 0; i < this.obstacles.length; i++) {

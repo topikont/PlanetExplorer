@@ -67,7 +67,7 @@ public class PlanetExplorer {
 			
 			return getLocationString();
 		} else if(command.equals("r")) {
-			
+			direction++;
 		}
 		
 		return null;

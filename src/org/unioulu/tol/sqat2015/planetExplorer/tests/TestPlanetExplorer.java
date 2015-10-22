@@ -27,6 +27,10 @@ public class TestPlanetExplorer {
 	
 	@Test
 	public void testExecuteCommandMoveExplorerForward1CellFromStartTo0_1_N() {
-		PlanetExplorer explorer = new PlanetExplorer();
+		PlanetExplorer explorer = new PlanetExplorer(100, 100, "");
+		
+		String position = explorer.executeCommand("f");
+		
+		assertEquals("0,1,N", position);
 	}
 }

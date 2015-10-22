@@ -36,6 +36,9 @@ public class PlanetExplorer {
 		if(command.equals("")) {
 			return "0,0,N";
 		}
+		if(command.equals("f")) {
+			
+		}
 		
 		return null;
 	}

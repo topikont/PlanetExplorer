@@ -80,7 +80,7 @@ public class PlanetExplorer {
 					break;
 				}
 			} else if(commandIterator == 'r') {
-				turnExplorer("r");;
+				turnExplorer("r");
 			} else if(commandIterator == 'l') {
 				turnExplorer("l");
 			}

@@ -5,6 +5,8 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 import org.unioulu.tol.sqat2015.planetExplorer.PlanetExplorer;
 
+import sun.net.www.content.text.plain;
+
 public class TestPlanetExplorer {
 
 	@Test
@@ -64,5 +66,10 @@ public class TestPlanetExplorer {
 		String position = explorer.executeCommand("rrrrr");
 		
 		assertEquals("0,0,E", position);
+	}
+	
+	@Test
+	public void testExecuteCommand_FFBRFLFFFRF_To4_0_E() {
+		PlanetExplorer explorer = new PlanetExplorer(100, 100, "");
 	}
 }

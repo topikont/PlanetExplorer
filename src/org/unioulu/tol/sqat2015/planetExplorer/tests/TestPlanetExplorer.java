@@ -29,7 +29,7 @@ public class TestPlanetExplorer {
 	
 	@Test
 	public void testExecuteCommandExplorerLandingAtPosition0_0_N() {
-		PlanetExplorer explorer = new PlanetExplorer(100, 100, "");
+		PlanetExplorer explorer = new PlanetExplorer(100, 100, null);
 		
 		String position = explorer.executeCommand("");
 		

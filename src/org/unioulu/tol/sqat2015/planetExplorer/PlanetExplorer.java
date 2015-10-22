@@ -82,6 +82,9 @@ public class PlanetExplorer {
 				}
 			} else if(commandIterator == 'b') {
 				moveExplorer("b");
+				
+				String obstacle = checkCollision();
+				
 				if(checkCollision() == false) {
 					moveExplorer("f");
 				}

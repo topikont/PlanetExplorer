@@ -230,3 +230,8 @@ EditAction 1445504533191 PlanetExplorer.java 2584 5 11 0
 EditAction 1445504536968 PlanetExplorer.java 2598 5 11 0
 EditAction 1445504604895 PlanetExplorer.java 2646 5 11 0
 EditAction 1445504613974 PlanetExplorer.java 2664 5 11 0
+RefactoringAction 1445504633429 TestPlanetExplorer.java ADD void testExecuteCommandTurnExplorerRightAndMove1CellForwardTo0_1_E()/2 METHOD
+RefactoringAction 1445504642448 TestPlanetExplorer.java RENAME testExecuteCommandTurnExplorerRightAndMove1CellForwardTo0_1_E()/2=>void testExecuteCommandTurnExplorerRight5TimesTo() METHOD
+RefactoringAction 1445504644467 TestPlanetExplorer.java RENAME testExecuteCommandTurnExplorerRight5TimesTo()=>void testExecuteCommandTurnExplorerRight5TimesTo0_0_() METHOD
+RefactoringAction 1445504650987 TestPlanetExplorer.java RENAME testExecuteCommandTurnExplorerRight5TimesTo0_0_()=>void testExecuteCommandTurnExplorerRight5TimesTo0_0_E() METHOD
+EditAction 1445504652501 TestPlanetExplorer.java 1740 6 20 6

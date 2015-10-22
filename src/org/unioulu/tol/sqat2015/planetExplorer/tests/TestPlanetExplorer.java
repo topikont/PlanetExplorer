@@ -81,7 +81,7 @@ public class TestPlanetExplorer {
 	public void testExecuteCommand_BB_FromStartTo98_0_N() {
 		PlanetExplorer explorer = new PlanetExplorer(100, 100, "");
 		
-		String position = explorer.executeCommand("ffbrflfffrf");
+		String position = explorer.executeCommand("bb");
 		
 		assertEquals("4,2,E", position);
 	}

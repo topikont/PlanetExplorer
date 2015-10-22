@@ -46,7 +46,7 @@ public class PlanetExplorer {
 				
 				int obstacleCellID = obsY * x + obsX;
 				
-				planet[obstacleCellID]
+				planet[obstacleCellID] = 1;
 			}
 		}
 

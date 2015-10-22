@@ -49,7 +49,7 @@ public class PlanetExplorer {
 		for(int i = 0; i < command.length(); i++) {
 			char commandIterator = command.charAt(i);
 			
-			if(commandIterator.equals("f")) {
+			if(commandIterator == 'f') {
 				switch(direction) {
 				case 0:
 					x++;
@@ -64,9 +64,9 @@ public class PlanetExplorer {
 					y--;
 					break;
 				}
-			} else if(commandIterator.equals("r")) {
+			} else if(commandIterator == 'r') {
 				turnExplorer("r");;
-			} else if(commandIterator.equals("l")) {
+			} else if(commandIterator == 'l') {
 				turnExplorer("l");
 			}
 		}

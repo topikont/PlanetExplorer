@@ -57,11 +57,11 @@ public class TestPlanetExplorer {
 	public void testExecuteCommandTurnExplorerRight5TimesTo0_0_E() {
 		PlanetExplorer explorer = new PlanetExplorer(100, 100, "");
 		
-		explorer.executeCommand("r");
-		explorer.executeCommand("r");
-		explorer.executeCommand("r");
-		explorer.executeCommand("r");
-		String position = explorer.executeCommand("r");
+		//explorer.executeCommand("r");
+		//explorer.executeCommand("r");
+		//explorer.executeCommand("r");
+		//explorer.executeCommand("r");
+		String position = explorer.executeCommand("rrrrr");
 		
 		assertEquals("0,0,E", position);
 	}

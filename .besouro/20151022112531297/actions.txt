@@ -262,3 +262,13 @@ CompilationAction 1445504851140 PlanetExplorer.java
 EditAction 1445504873670 PlanetExplorer.java 2805 5 11 0
 CompilationAction 1445504873927 PlanetExplorer.java
 EditAction 1445504889306 PlanetExplorer.java 2805 5 11 0
+CompilationAction 1445504889561 PlanetExplorer.java
+CompilationAction 1445504894616 PlanetExplorer.java
+CompilationAction 1445504894782 PlanetExplorer.java
+CompilationAction 1445504894782 PlanetExplorer.java
+RefactoringAction 1445504937509 PlanetExplorer.java ADD String getLocationString()/2 METHOD
+RefactoringAction 1445504939026 PlanetExplorer.java REMOVE getLocationString()/2 METHOD
+CompilationAction 1445504950804 PlanetExplorer.java
+UnitTestCaseAction 1445504954364 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445504954365 TestPlanetExplorer OK
+EditAction 1445504979692 TestPlanetExplorer.java 1851 6 19 6

@@ -361,3 +361,4 @@ RefactoringAction 1445506668738 TestPlanetExplorer.java RENAME testExecuteComman
 RefactoringAction 1445506670258 TestPlanetExplorer.java RENAME testExecuteCommand_FF_FromStartTo0_1_N_WithEncounteringObstacleAt()=>void testExecuteCommand_FF_FromStartTo0_1_N_WithEncounteringObstacleAt0() METHOD
 RefactoringAction 1445506671280 TestPlanetExplorer.java RENAME testExecuteCommand_FF_FromStartTo0_1_N_WithEncounteringObstacleAt0()=>void testExecuteCommand_FF_FromStartTo0_1_N_WithEncounteringObstacleAt0_2() METHOD
 EditAction 1445506671426 TestPlanetExplorer.java 2628 9 28 9
+EditAction 1445506677330 TestPlanetExplorer.java 2633 9 28 9

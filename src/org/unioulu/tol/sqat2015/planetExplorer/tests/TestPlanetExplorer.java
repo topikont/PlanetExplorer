@@ -88,7 +88,7 @@ public class TestPlanetExplorer {
 	
 	@Test
 	public void testExecuteCommand_FF_FromStartTo0_1_N_WithEncounteringObstacleAt0_2() {
-		PlanetExplorer explorer = new PlanetExplorer(100, 100, "");
+		PlanetExplorer explorer = new PlanetExplorer(100, 100, "(0,2)");
 		
 		String position = explorer.executeCommand("bb");
 		

@@ -20,7 +20,7 @@ public class TestPlanetExplorer {
 	
 	@Test
 	public void testCreatePlanetReturnPlanetSize100x100With2ObstaclesAt20_20And30_58() {
-		PlanetExplorer explorer = new PlanetExplorer(100, 100, null);
+		PlanetExplorer explorer = new PlanetExplorer(100, 100, "(20,20)(30,58)");
 		
 		String grid = explorer.getPlanetGridSize();
 		

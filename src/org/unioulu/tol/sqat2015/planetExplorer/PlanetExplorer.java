@@ -80,6 +80,9 @@ public class PlanetExplorer {
 				checkPlanetWrapping();
 			} else if(commandIterator == 'b') {
 				moveExplorer("b");
+				if(checkCollision() == false) {
+					
+				}
 				checkPlanetWrapping();
 			} else if(commandIterator == 'r') {
 				turnExplorer("r");

@@ -178,3 +178,8 @@ EditAction 1445504331789 PlanetExplorer.java 2425 4 11 0
 UnitTestCaseAction 1445504337695 TestPlanetExplorer.java OK
 UnitTestSessionAction 1445504337695 TestPlanetExplorer OK
 EditAction 1445504347833 TestPlanetExplorer.java 1424 5 15 5
+CompilationAction 1445504347941 TestPlanetExplorer.java
+RefactoringAction 1445504369714 TestPlanetExplorer.java RENAME testExecuteCommandTurnExplorerRightFromStartTo0_0_E()/2=>void testExecuteCommandTurnExplorerRightAndMove1CellForwardTo() METHOD
+RefactoringAction 1445504372731 TestPlanetExplorer.java RENAME testExecuteCommandTurnExplorerRightAndMove1CellForwardTo()=>void testExecuteCommandTurnExplorerRightAndMove1CellForwardTo0_1_E() METHOD
+CompilationAction 1445504373015 TestPlanetExplorer.java
+EditAction 1445504396109 TestPlanetExplorer.java 1462 5 12 4

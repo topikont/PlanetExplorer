@@ -44,11 +44,11 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void testExecuteCommandTurnExplorerRightFromStartTo0_0_E() {
+	public void testExecuteCommandTurnExplorerRightAndMove1CellForwardTo0_1_E() {
 		PlanetExplorer explorer = new PlanetExplorer(100, 100, "");
 		
-		String position = explorer.executeCommand("r");
-		
+		explorer.executeCommand("r");
+		String position = explorer.executeCommand("f")
 		assertEquals("0,0,E", position);
 	}
 }

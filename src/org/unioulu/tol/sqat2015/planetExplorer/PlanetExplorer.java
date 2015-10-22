@@ -77,7 +77,6 @@ public class PlanetExplorer {
 				if(checkCollision() == false) {
 					moveExplorer("b");
 				}
-				checkPlanetWrapping();
 			} else if(commandIterator == 'b') {
 				moveExplorer("b");
 				if(checkCollision() == false) {

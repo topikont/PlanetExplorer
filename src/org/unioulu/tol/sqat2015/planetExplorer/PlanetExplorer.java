@@ -141,8 +141,12 @@ public class PlanetExplorer {
 		}
 	}
 	
-	private void checkCollision() {
+	private bool checkCollision() {
 		int id = y * planetX + x;
+		
+		if() {
+			
+		}
 	}
 	
 	private String getLocationString() {

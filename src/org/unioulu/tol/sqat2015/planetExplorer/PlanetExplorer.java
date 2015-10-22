@@ -29,8 +29,9 @@ public class PlanetExplorer {
 		
 		planetX = x;
 		planetY = y;
+		
 		if(obstacles != null) {
-			this.obstacles = obstacles.split("(.,.)");
+			this.obstacles = obstacles.split("([0-9]+,[0-9]+)");
 
 			for(int i = 0; i < this.obstacles.length; i++) {
 				System.out.println(this.obstacles[i]);

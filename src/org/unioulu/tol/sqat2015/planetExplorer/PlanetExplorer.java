@@ -18,6 +18,7 @@ public class PlanetExplorer {
 		
 		width = x;
 		height = y;
+		this.obstacles = obstacles;
 	}
 	
 	public String executeCommand(String command){

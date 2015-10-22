@@ -7,3 +7,6 @@
 1445504182749 refactoring 2A 32 false
 1445504337695 test-first 1 130 true
 1445504404199 test-addition 1 56 false
+1445504673502 test-last 1 247 false
+1445504674032 regression 1 0 true
+1445504681687 regression 1 0 false

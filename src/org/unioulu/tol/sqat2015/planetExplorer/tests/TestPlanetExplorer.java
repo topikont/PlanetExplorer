@@ -38,7 +38,7 @@ public class TestPlanetExplorer {
 	
 	@Test
 	public void testExecuteCommandMoveExplorerForward1CellFromStartTo0_1_N() {
-		PlanetExplorer explorer = new PlanetExplorer(100, 100, "");
+		PlanetExplorer explorer = new PlanetExplorer(100, 100, null);
 		
 		String position = explorer.executeCommand("f");
 		
@@ -47,7 +47,7 @@ public class TestPlanetExplorer {
 	
 	@Test
 	public void testExecuteCommandTurnExplorerRightFromStartTo0_0_E() {
-		PlanetExplorer explorer = new PlanetExplorer(100, 100, "");
+		PlanetExplorer explorer = new PlanetExplorer(100, 100, null);
 		
 		String position = explorer.executeCommand("r");
 		
@@ -56,7 +56,7 @@ public class TestPlanetExplorer {
 	
 	@Test
 	public void testExecuteCommandTurnExplorerRightAndMove1CellForwardTo1_0_E() {
-		PlanetExplorer explorer = new PlanetExplorer(100, 100, "");
+		PlanetExplorer explorer = new PlanetExplorer(100, 100, null);
 		
 		explorer.executeCommand("r");
 		String position = explorer.executeCommand("f");
@@ -66,7 +66,7 @@ public class TestPlanetExplorer {
 	
 	@Test
 	public void testExecuteCommandTurnExplorerRight5TimesTo0_0_E() {
-		PlanetExplorer explorer = new PlanetExplorer(100, 100, "");
+		PlanetExplorer explorer = new PlanetExplorer(100, 100, null);
 		
 		//explorer.executeCommand("r");
 		//explorer.executeCommand("r");
@@ -79,7 +79,7 @@ public class TestPlanetExplorer {
 	
 	@Test
 	public void testExecuteCommand_FFBRFLFFFRF_To2_4_E() {
-		PlanetExplorer explorer = new PlanetExplorer(100, 100, "");
+		PlanetExplorer explorer = new PlanetExplorer(100, 100, null);
 		
 		String position = explorer.executeCommand("ffbrflfffrf");
 		
@@ -88,7 +88,7 @@ public class TestPlanetExplorer {
 	
 	@Test
 	public void testExecuteCommand_BB_FromStartTo0_98_N() {
-		PlanetExplorer explorer = new PlanetExplorer(100, 100, "");
+		PlanetExplorer explorer = new PlanetExplorer(100, 100, null);
 		
 		String position = explorer.executeCommand("bb");
 		

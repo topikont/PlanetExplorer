@@ -43,7 +43,7 @@ public class PlanetExplorer {
 				System.out.println(m.group());
 				String cell = m.group();
 				
-				System.out.println("Obstacle cell)";
+				System.out.println("Obstacle cell)");
 			}
 			
 			/*

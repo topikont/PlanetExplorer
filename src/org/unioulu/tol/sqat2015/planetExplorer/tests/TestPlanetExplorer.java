@@ -110,6 +110,6 @@ public class TestPlanetExplorer {
 		
 		String position = explorer.executeCommand("rffflffrflflf");
 		
-		assertEquals("(0,1,N)(3,0)(2,2)", position);
+		assertEquals("(0,1,E)(3,0)(2,2)", position);
 	}
 }

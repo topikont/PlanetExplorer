@@ -292,3 +292,5 @@ UnitTestSessionAction 1445505204741 TestPlanetExplorer FAIL
 RefactoringAction 1445505218421 PlanetExplorer.java ADD String getLocationString()/2 METHOD
 RefactoringAction 1445505221954 PlanetExplorer.java REMOVE getLocationString()/2 METHOD
 EditAction 1445505227514 PlanetExplorer.java 2830 5 11 0
+CompilationAction 1445505227776 PlanetExplorer.java
+EditAction 1445505264413 PlanetExplorer.java 3010 5 11 0

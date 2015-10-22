@@ -64,8 +64,22 @@ public class PlanetExplorer {
 					y--;
 					break;
 				}
-			} else if(commantIterator == 'b') { 
-		} else if(commandIterator == 'r') {
+			} else if(commantIterator == 'b') {
+				switch(direction) {
+				case 0:
+					x--;
+					break;
+				case 1:
+					y--;
+					break;
+				case 2:
+					x++;
+					break;
+				case 3:
+					y++;
+					break;
+				}
+			} else if(commandIterator == 'r') {
 				turnExplorer("r");;
 			} else if(commandIterator == 'l') {
 				turnExplorer("l");

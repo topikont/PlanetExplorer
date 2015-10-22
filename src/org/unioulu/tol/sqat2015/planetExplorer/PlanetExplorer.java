@@ -49,7 +49,7 @@ public class PlanetExplorer {
 		String commandIterator = "";
 		
 		for(int i = 0; i < command.length(); i++) {
-			
+			commandIterator = 
 		}
 		
 		if(command.equals("f")) {

@@ -37,7 +37,7 @@ public class PlanetExplorer {
 			Matcher m = Pattern.compile("\\b\\d+,\\d+\\b").matcher(obstacles);
 			
 			while(m.find()) {
-				int cell[] = m.group().split(",");
+				int cell[] = Integer.parseInt(m.group().split(",") );
 				
 				System.out.println("Obstacle cell; x: " + cell[0] + "; y: " + cell[1]);
 				

@@ -51,8 +51,6 @@ public class PlanetExplorer {
 				planet[obstacleCellID] = 1;
 			}
 		}
-
-		
 		
 		this.x = 0;
 		this.y = 0;

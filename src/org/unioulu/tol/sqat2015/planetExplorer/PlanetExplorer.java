@@ -76,11 +76,11 @@ public class PlanetExplorer {
 		case 0:
 			return x+","+y+",N";
 		case 1:
-			return "E";
+			return x+","+y+",E";
 		case 2:
-			return "S";
+			return x+","+y+",S";
 		case 3:
-			return "W";
+			return x+","+y+",W";
 		default:
 			return "";
 		}

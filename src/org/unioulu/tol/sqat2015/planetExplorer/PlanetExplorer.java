@@ -108,7 +108,7 @@ public class PlanetExplorer {
 		if(x < 0) {
 			x = planetHeight;
 		} else if(x > planetHeight) {
-			
+			x = 0;
 		}
 	}
 	

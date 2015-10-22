@@ -24,4 +24,9 @@ public class TestPlanetExplorer {
 		
 		assertEquals("0,0,N", position);
 	}
+	
+	@Test
+	public void testExecuteCommandMoveExplorerForward1CellFromStartTo0_1_N() {
+		
+	}
 }

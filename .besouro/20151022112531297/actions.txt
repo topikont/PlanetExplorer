@@ -44,3 +44,15 @@ EditAction 1445503389505 PlanetExplorer.java 1573 3 6 0
 EditAction 1445503400929 PlanetExplorer.java 1578 3 6 0
 EditAction 1445503407706 PlanetExplorer.java 1588 3 6 0
 EditAction 1445503410113 PlanetExplorer.java 1593 3 6 0
+UnitTestCaseAction 1445503412887 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445503412888 TestPlanetExplorer OK
+RefactoringAction 1445503465178 TestPlanetExplorer.java ADD void te FIELD
+RefactoringAction 1445503468693 TestPlanetExplorer.java RENAME te=>void testExecuteCommand FIELD
+RefactoringAction 1445503475209 TestPlanetExplorer.java RENAME testExecuteCommand=>void testExecuteCommandMoveExplorerForward FIELD
+RefactoringAction 1445503476224 TestPlanetExplorer.java RENAME testExecuteCommandMoveExplorerForward=>void testExecuteCommandMoveExplorerForward1 FIELD
+RefactoringAction 1445503497285 TestPlanetExplorer.java RENAME testExecuteCommandMoveExplorerForward1=>void testExecuteCommandMoveExplorerForward1Cell() METHOD
+RefactoringAction 1445503500800 TestPlanetExplorer.java RENAME testExecuteCommandMoveExplorerForward1Cell()=>void testExecuteCommandMoveExplorerForward1CellFromStart() METHOD
+RefactoringAction 1445503502315 TestPlanetExplorer.java RENAME testExecuteCommandMoveExplorerForward1CellFromStart()=>void testExecuteCommandMoveExplorerForward1CellFromStartTo() METHOD
+RefactoringAction 1445503503830 TestPlanetExplorer.java RENAME testExecuteCommandMoveExplorerForward1CellFromStartTo()=>void testExecuteCommandMoveExplorerForward1CellFromStartTo0() METHOD
+RefactoringAction 1445503504846 TestPlanetExplorer.java RENAME testExecuteCommandMoveExplorerForward1CellFromStartTo0()=>void testExecuteCommandMoveExplorerForward1CellFromStartTo0_() METHOD
+EditAction 1445503656213 TestPlanetExplorer.java 784 3 6 2

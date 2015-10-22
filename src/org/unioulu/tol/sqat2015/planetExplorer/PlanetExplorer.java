@@ -110,6 +110,10 @@ public class PlanetExplorer {
 		} else if(x > planetHeight) {
 			x = 0;
 		}
+		
+		if(y < 0) {
+			y = planetWidth;
+		}
 	}
 	
 	private String getLocationString() {

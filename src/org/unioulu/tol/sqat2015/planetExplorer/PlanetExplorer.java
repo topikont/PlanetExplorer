@@ -40,6 +40,8 @@ public class PlanetExplorer {
 				String cell[] = m.group().split(",");
 				
 				System.out.println("Obstacle cell; x: " + cell[0] + "; y: " + cell[1]);
+				
+				int obstacleCellID = cell[1] * x + cell[0];
 			}
 		}
 

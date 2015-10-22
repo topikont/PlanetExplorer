@@ -141,10 +141,10 @@ public class PlanetExplorer {
 		}
 	}
 	
-	private bool checkCollision() {
+	private boolean checkCollision() {
 		int id = y * planetX + x;
 		
-		if() {
+		if(planet[id] == 1) {
 			
 		}
 	}

@@ -68,6 +68,10 @@ public class PlanetExplorer {
 		return getLocationString();
 	}
 	
+	private void turnExplorer() {
+
+	}
+	
 	private String getLocationString() {
 		switch(direction) {
 		case 0:

@@ -81,8 +81,10 @@ public class PlanetExplorer {
 				}
 			} else if(commandIterator == 'r') {
 				turnExplorer("r");
+				checkPlanetWrapping();
 			} else if(commandIterator == 'l') {
 				turnExplorer("l");
+				checkPlanetWrapping();
 			}
 		}
 		return getLocationString();

@@ -62,7 +62,9 @@ public class PlanetExplorer {
 				break;
 			}
 		} else if(command.equals("r")) {
-			direction++;
+			turnExplorer("r");;
+		} else if(command.equals("l")) {
+			
 		}
 		
 		return getLocationString();

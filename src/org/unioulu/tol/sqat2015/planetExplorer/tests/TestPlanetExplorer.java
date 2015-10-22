@@ -48,7 +48,7 @@ public class TestPlanetExplorer {
 		PlanetExplorer explorer = new PlanetExplorer(100, 100, "");
 		
 		explorer.executeCommand("r");
-		String position = explorer.executeCommand("f")
+		String position = explorer.executeCommand("f");
 		assertEquals("0,0,E", position);
 	}
 }

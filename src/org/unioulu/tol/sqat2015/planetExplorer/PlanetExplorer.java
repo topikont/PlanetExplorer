@@ -70,7 +70,10 @@ public class PlanetExplorer {
 	
 	private void turnExplorer(String direction) {
 		if(direction.equals("r")) {
-			
+			direction++;
+			if(direction > 3) {
+				
+			}
 		}
 	}
 	

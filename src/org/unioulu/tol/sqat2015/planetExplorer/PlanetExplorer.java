@@ -68,8 +68,10 @@ public class PlanetExplorer {
 		return getLocationString();
 	}
 	
-	private void turnExplorer() {
-
+	private void turnExplorer(String direction) {
+		if(direction.equals("r")) {
+			
+		}
 	}
 	
 	private String getLocationString() {

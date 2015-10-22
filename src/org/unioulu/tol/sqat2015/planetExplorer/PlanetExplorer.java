@@ -70,7 +70,7 @@ public class PlanetExplorer {
 			direction++;
 		}
 		
-		return null;
+		return getLocationString();
 	}
 	
 	private String getLocationString() {

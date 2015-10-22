@@ -40,6 +40,6 @@ public class TestPlanetExplorer {
 		
 		String position = explorer.executeCommand("r");
 		
-		assertEquals("0,0.E", actual);
+		assertEquals("0,0,E", position);
 	}
 }

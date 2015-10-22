@@ -12,6 +12,8 @@ public class PlanetExplorer {
 	int y;
 	int direction;
 	
+	int planet[];
+	
 	public static int NORTH = 0;
 	public static int EAST = 1;
 	public static int SOUTH = 2;

@@ -456,3 +456,6 @@ RefactoringAction 1445507763606 TestPlanetExplorer.java RENAME testCreatePlanetR
 RefactoringAction 1445507768634 TestPlanetExplorer.java RENAME testCreatePlanetReturnPlanetSize100x100With2ObstaclesAt()=>void testCreatePlanetReturnPlanetSize100x100With2ObstaclesAt20_20And30_() METHOD
 EditAction 1445507769537 TestPlanetExplorer.java 2895 10 31 10
 EditAction 1445507778241 TestPlanetExplorer.java 2907 10 31 10
+UnitTestCaseAction 1445507782243 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445507782243 TestPlanetExplorer FAIL
+EditAction 1445507820211 PlanetExplorer.java 3536 6 7 0

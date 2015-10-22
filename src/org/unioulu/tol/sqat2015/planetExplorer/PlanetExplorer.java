@@ -29,10 +29,12 @@ public class PlanetExplorer {
 		
 		planetX = x;
 		planetY = y;
+		if() {
 		this.obstacles = obstacles.split("(.,.)");
 		
 		for(int i = 0; i < this.obstacles.length; i++) {
 			System.out.println(this.obstacles[i]);
+		}
 		}
 		
 		planet = new int[x*y];

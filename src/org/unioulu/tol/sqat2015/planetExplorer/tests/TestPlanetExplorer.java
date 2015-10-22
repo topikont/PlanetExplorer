@@ -78,7 +78,7 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void testExecuteCommand_BB_FromStartTo99_0_N() {
+	public void testExecuteCommand_BB_FromStartTo98_0_N() {
 		PlanetExplorer explorer = new PlanetExplorer(100, 100, "");
 		
 		String position = explorer.executeCommand("ffbrflfffrf");

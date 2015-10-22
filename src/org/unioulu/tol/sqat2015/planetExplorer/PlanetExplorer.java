@@ -75,7 +75,7 @@ public class PlanetExplorer {
 				direction = 0;
 			}
 		} else if(turnDirection.equals("l")) {
-			
+			direction--;
 		}
 	}
 	

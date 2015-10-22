@@ -1,2 +1,5 @@
 FileOpenedAction 1445502331938 TestPlanetExplorer.java 228 1 1 0
 EditAction 1445502492992 TestPlanetExplorer.java 228 1 1 0
+RefactoringAction 1445502956840 TestPlanetExplorer.java RENAME test()=>void testCreatePlanet() METHOD
+RefactoringAction 1445502966353 TestPlanetExplorer.java RENAME testCreatePlanet()=>void testCreatePlanetReturnPlanetSize() METHOD
+EditAction 1445502982999 TestPlanetExplorer.java 278 1 1 0

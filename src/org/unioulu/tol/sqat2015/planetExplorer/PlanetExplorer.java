@@ -4,7 +4,7 @@ package org.unioulu.tol.sqat2015.planetExplorer;
 // ID: 132
 // Finish time:
 public class PlanetExplorer {
-	int planetWidth;
+	int planetX;
 	int planetHeight;
 	String obstacles;
 	
@@ -25,7 +25,7 @@ public class PlanetExplorer {
 		PlanetExplorer explorer = new PlanetExplorer(100,100,"(5,5)(7,8)")  //A 100x100 grid with two obstacles at coordinates (5,5) and (7,8) 
 	 */
 		
-		planetWidth = x;
+		planetX = x;
 		planetHeight = y;
 		this.obstacles = obstacles;
 		
@@ -112,8 +112,8 @@ public class PlanetExplorer {
 		}
 		
 		if(y < 0) {
-			y = planetWidth-1;
-		} else if(y > planetWidth-1) {
+			y = planetX-1;
+		} else if(y > planetX-1) {
 			y = 0;
 		}
 	}
@@ -134,6 +134,6 @@ public class PlanetExplorer {
 	}
 	
 	public String getPlanetGridSize() {
-		return planetWidth +"x" + planetHeight;
+		return planetX +"x" + planetHeight;
 	}
 }

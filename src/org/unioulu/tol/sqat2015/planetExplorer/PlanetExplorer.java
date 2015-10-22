@@ -89,7 +89,7 @@ public class PlanetExplorer {
 				turnExplorer("l");
 			}
 		}
-		return "(" + getLocationString() + ")";
+		return "(" + getLocationString() + ")" + encounteredObstacles;
 	}
 	
 	private void moveExplorer(String movementDirection) {

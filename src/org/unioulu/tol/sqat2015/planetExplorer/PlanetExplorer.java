@@ -34,7 +34,7 @@ public class PlanetExplorer {
 		 */
 		
 		if(command.equals("")) {
-			
+			return "";
 		}
 		
 		return null;

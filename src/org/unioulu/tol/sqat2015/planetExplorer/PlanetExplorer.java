@@ -34,7 +34,7 @@ public class PlanetExplorer {
 		planet = new int[x*y];
 		
 		//FOR ALL OBSTACLEs
-		id = obsY * x + obsX
+		id = obsY * x + obsX;
 		
 		this.x = 0;
 		this.y = 0;

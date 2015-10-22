@@ -29,7 +29,7 @@ public class PlanetExplorer {
 		
 		planetX = x;
 		planetY = y;
-		if() {
+		if(obstacles != null) {
 		this.obstacles = obstacles.split("(.,.)");
 		
 		for(int i = 0; i < this.obstacles.length; i++) {

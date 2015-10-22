@@ -81,7 +81,7 @@ public class PlanetExplorer {
 			} else if(commandIterator == 'b') {
 				moveExplorer("b");
 				if(checkCollision() == false) {
-					
+					moveExplorer("f");
 				}
 				checkPlanetWrapping();
 			} else if(commandIterator == 'r') {

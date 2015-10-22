@@ -37,6 +37,6 @@ public class PlanetExplorer {
 	}
 	
 	public String getPlanetGridSize() {
-		return "100x100";
+		return width +"x" + height;
 	}
 }

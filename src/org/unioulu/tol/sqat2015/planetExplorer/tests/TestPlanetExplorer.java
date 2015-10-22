@@ -42,4 +42,13 @@ public class TestPlanetExplorer {
 		
 		assertEquals("0,0,E", position);
 	}
+	
+	@Test
+	public void testExecuteCommandTurnExplorerRightFromStartTo0_0_E() {
+		PlanetExplorer explorer = new PlanetExplorer(100, 100, "");
+		
+		String position = explorer.executeCommand("r");
+		
+		assertEquals("0,0,E", position);
+	}
 }

@@ -4,4 +4,5 @@
 1445503760597 refactoring 3 347 true
 1445504078583 test-last 1 317 false
 1445504110420 production 3 31 false
-1445504182749 refactoring 2A 72 false
+1445504182749 refactoring 2A 72 true
+1445504337695 test-first 1 154 true

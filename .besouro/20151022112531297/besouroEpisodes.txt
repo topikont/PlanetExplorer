@@ -369,3 +369,5 @@
 1445504337746 test-first 1 130 true
 1445504337747 test-first 1 130 true
 1445504337748 test-first 1 130 true
+1445504404199 test-addition 1 56 true
+1445504404200 test-addition 1 56 true

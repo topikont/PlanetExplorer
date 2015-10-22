@@ -46,9 +46,6 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		
-		if(command.equals("")) {
-			return getLocationString();
-		}
 		if(command.equals("f")) {
 			switch(direction) {
 			case 0:
@@ -64,8 +61,6 @@ public class PlanetExplorer {
 				y--;
 				break;
 			}
-			
-			return getLocationString();
 		} else if(command.equals("r")) {
 			direction++;
 		}

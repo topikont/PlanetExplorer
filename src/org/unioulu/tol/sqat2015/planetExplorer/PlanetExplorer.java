@@ -64,6 +64,7 @@ public class PlanetExplorer {
 					y--;
 					break;
 				}
+				checkPlanetWrapping();
 			} else if(commandIterator == 'b') {
 				switch(direction) {
 				case 0:
@@ -79,12 +80,11 @@ public class PlanetExplorer {
 					y++;
 					break;
 				}
+				checkPlanetWrapping();
 			} else if(commandIterator == 'r') {
 				turnExplorer("r");
-				checkPlanetWrapping();
 			} else if(commandIterator == 'l') {
 				turnExplorer("l");
-				checkPlanetWrapping();
 			}
 		}
 		return getLocationString();

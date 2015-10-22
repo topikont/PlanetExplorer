@@ -46,7 +46,7 @@ public class PlanetExplorer {
 				
 				//System.out.println("Obstacle cell; x: " + cell[0] + "; y: " + cell[1]);
 				
-				int obstacleCellID = obsY * x + obsX;
+				int obstacleCellID = obsY * planetX + obsX;
 				
 				planet[obstacleCellID] = 1;
 			}

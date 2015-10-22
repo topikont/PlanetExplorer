@@ -36,7 +36,7 @@ public class PlanetExplorer {
 			//this.obstacles = obstacles.split("(\\d+,\\d+)");
 			this.obstacles = obstacles.split("\\b\\d+,\\d+\\b");
 			
-			Matcher m = Pattern.compile(""M)
+			Matcher m = Pattern.compile("\\b\\d+,\\d+\\b");
 			
 			for(int i = 0; i < this.obstacles.length; i++) {
 				System.out.println(this.obstacles[i]);

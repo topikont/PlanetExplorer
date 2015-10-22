@@ -61,7 +61,7 @@ public class TestPlanetExplorer {
 		explorer.executeCommand("r");
 		explorer.executeCommand("r");
 		explorer.executeCommand("r");
-		String position = explorer.executeCommand("f");
+		String position = explorer.executeCommand("r");
 		
 		assertEquals("0,1,E", position);
 	}

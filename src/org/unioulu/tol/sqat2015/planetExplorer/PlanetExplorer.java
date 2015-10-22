@@ -47,7 +47,7 @@ public class PlanetExplorer {
 		 */
 		
 		if(command.equals("")) {
-			return "0,0,N";
+			return x+","+y;
 		}
 		if(command.equals("f")) {
 			switch(direction) {
@@ -74,7 +74,7 @@ public class PlanetExplorer {
 	private String getLocationString() {
 		switch(direction) {
 		case 0:
-			return "N";
+			return x+","+y+",N";
 		case 1:
 			return "E";
 		case 2:

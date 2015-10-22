@@ -146,6 +146,8 @@ public class PlanetExplorer {
 		
 		if(planet[id] == 1) {
 			return false;
+		} else {
+			return true;
 		}
 	}
 	

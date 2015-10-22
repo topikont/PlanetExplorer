@@ -19,6 +19,15 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
+	public void testCreatePlanetReturnPlanetSize100x100With2ObstaclesAt20_20And30_58() {
+		PlanetExplorer explorer = new PlanetExplorer(100, 100, null);
+		
+		String grid = explorer.getPlanetGridSize();
+		
+		assertEquals("100x100", grid);
+	}
+	
+	@Test
 	public void testExecuteCommandExplorerLandingAtPosition0_0_N() {
 		PlanetExplorer explorer = new PlanetExplorer(100, 100, "");
 		

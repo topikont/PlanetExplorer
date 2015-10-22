@@ -304,3 +304,9 @@ EditAction 1445505292534 TestPlanetExplorer.java 2133 7 22 7
 UnitTestCaseAction 1445505295402 TestPlanetExplorer.java OK
 UnitTestSessionAction 1445505295402 TestPlanetExplorer OK
 EditAction 1445505347065 PlanetExplorer.java 3009 5 11 0
+RefactoringAction 1445505353800 TestPlanetExplorer.java ADD void testExecuteCommand_FFBRFLFFFRF_To4_2_E()/2 METHOD
+RefactoringAction 1445505358821 TestPlanetExplorer.java RENAME testExecuteCommand_FFBRFLFFFRF_To4_2_E()/2=>void testExecuteCommand_BB_To4_2_E() METHOD
+RefactoringAction 1445505362843 TestPlanetExplorer.java RENAME testExecuteCommand_BB_To4_2_E()=>void testExecuteCommand_BB_FromStartTo4_2_E() METHOD
+RefactoringAction 1445505371863 TestPlanetExplorer.java RENAME testExecuteCommand_BB_FromStartTo4_2_E()=>void testExecuteCommand_BB_FromStartTo99_2_E() METHOD
+RefactoringAction 1445505373383 TestPlanetExplorer.java RENAME testExecuteCommand_BB_FromStartTo99_2_E()=>void testExecuteCommand_BB_FromStartTo99_0_E() METHOD
+EditAction 1445505375902 TestPlanetExplorer.java 2374 8 25 8

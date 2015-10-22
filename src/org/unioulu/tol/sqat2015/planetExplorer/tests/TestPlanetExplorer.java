@@ -76,4 +76,13 @@ public class TestPlanetExplorer {
 		
 		assertEquals("4,2,E", position);
 	}
+	
+	@Test
+	public void testExecuteCommand_BB_FromStartTo99_0_N() {
+		PlanetExplorer explorer = new PlanetExplorer(100, 100, "");
+		
+		String position = explorer.executeCommand("ffbrflfffrf");
+		
+		assertEquals("4,2,E", position);
+	}
 }

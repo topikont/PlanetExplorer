@@ -33,7 +33,7 @@ public class TestPlanetExplorer {
 		
 		String position = explorer.executeCommand("");
 		
-		assertEquals("0,0,N", position);
+		assertEquals("(0,0,N)", position);
 	}
 	
 	@Test
@@ -42,7 +42,7 @@ public class TestPlanetExplorer {
 		
 		String position = explorer.executeCommand("f");
 		
-		assertEquals("0,1,N", position);
+		assertEquals("(0,1,N)", position);
 	}
 	
 	@Test
@@ -51,7 +51,7 @@ public class TestPlanetExplorer {
 		
 		String position = explorer.executeCommand("r");
 		
-		assertEquals("0,0,E", position);
+		assertEquals("(0,0,E)", position);
 	}
 	
 	@Test
@@ -61,7 +61,7 @@ public class TestPlanetExplorer {
 		explorer.executeCommand("r");
 		String position = explorer.executeCommand("f");
 		
-		assertEquals("1,0,E", position);
+		assertEquals("(1,0,E)", position);
 	}
 	
 	@Test
@@ -74,7 +74,7 @@ public class TestPlanetExplorer {
 		//explorer.executeCommand("r");
 		String position = explorer.executeCommand("rrrrr");
 		
-		assertEquals("0,0,E", position);
+		assertEquals("(0,0,E)", position);
 	}
 	
 	@Test
@@ -83,7 +83,7 @@ public class TestPlanetExplorer {
 		
 		String position = explorer.executeCommand("ffbrflfffrf");
 		
-		assertEquals("2,4,E", position);
+		assertEquals("(2,4,E)", position);
 	}
 	
 	@Test
@@ -92,7 +92,7 @@ public class TestPlanetExplorer {
 		
 		String position = explorer.executeCommand("bb");
 		
-		assertEquals("0,98,N", position);
+		assertEquals("(0,98,N)", position);
 	}
 	
 	@Test
